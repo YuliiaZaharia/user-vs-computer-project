@@ -29,7 +29,6 @@ function play() {
           }) 
     }
 
-
     else {
         if (userNumber < answer) {
             Swal.fire('Computer is winning for now!', 
