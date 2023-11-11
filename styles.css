@@ -19,3 +19,23 @@ h3 {
 font-size: 25px;
 font-family: 'Montserrat', sans-serif;
 }
+
+#guess {
+    padding: 10px;
+    width: 40%;
+    border: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 3px;
+}
+
+.btn {
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #185ADB;
+    color: #fff;
+}
