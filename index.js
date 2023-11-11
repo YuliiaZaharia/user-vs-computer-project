@@ -1,5 +1,6 @@
 const input = document.querySelector("#guess");
 const button = document.querySelector(".btn");
+const answer = Math.floor(Math.random()*20)+1;
 
 button.addEventListener("click", play);
 
@@ -13,4 +14,14 @@ function play() {
             text: "Enter number from 1 to 20!",
           })
     }
+
+    else if (isNaN(userNumber)) {
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Enter number!",
+          }) 
+    }
+
+
 }
